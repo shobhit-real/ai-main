@@ -35,9 +35,8 @@ export default async function handler(req: Request) {
   }
 
   const keys = [
-    process.env.API1 || process.env.GEMINI_API_KEY,
-    process.env.API2,
-    process.env.API3
+    "AQ.Ab8RN6JCIZO0SpQcx1UvDKCPy973-LeD2jqV43ev4fjXmn87dg",
+    AQ.Ab8RN6IQ25vjoXf2hrrMPCzoIHHhA1GDJO8CBkSE4ekR_xE3hQ
   ].filter(Boolean) as string[];
 
   // Try each model
